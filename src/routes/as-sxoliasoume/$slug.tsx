@@ -117,10 +117,7 @@ function BlogPostPage() {
               className="mb-10 h-auto max-h-[420px] w-full rounded-2xl border border-border object-cover shadow-[0_20px_60px_-20px_rgba(14,27,26,0.25)]"
             />
           )}
-          <p className="font-serif text-lg leading-relaxed text-ink/90 md:text-xl">
-            {post.excerpt}
-          </p>
-          <div className="mt-8 space-y-6 text-[17px] leading-[1.85] text-foreground/85">
+          <div className="space-y-6 text-[17px] leading-[1.85] text-foreground/85">
             {post.sections.map((s, i) => (
               <div key={i} className="space-y-6">
                 {s.heading && (
